@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { Avatar, AvatarImage } from "./ui/avatar";
 import Link from "next/link";
+import React from "react";
 
 const SideMenu = () => {
   const { data } = useSession();
